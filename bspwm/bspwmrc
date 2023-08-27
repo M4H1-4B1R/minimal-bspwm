@@ -3,7 +3,7 @@
 bspc monitor -d          
 
 bspc config border_width			0
-bspc config window_gap				7
+bspc config window_gap				3
 bspc config top_monocle_padding  0
 bspc config right_monocle_padding 0
 bspc config left_monocle_padding 0
@@ -37,7 +37,7 @@ xsetroot -cursor_name left_ptr
 
 #### Autostart ####
 dunst &
-picom --config ~/.config/picom/picom.conf &
+picom &
 nitrogen --restore &
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
 numlockx &
@@ -45,9 +45,10 @@ dunst &
 xclip &
 cbatticon &
 #polybar &
-~/bin/polybar-launch &
+#~/bin/polybar-launch &
+~/.config/bspwm/launch.sh &
 volumeicon &
 nm-applet &
 blueman-applet &
-sxhkd &
+sxhkd -c ~/.config/bspwm/sxhkdrc &
 

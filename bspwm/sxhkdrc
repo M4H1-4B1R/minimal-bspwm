@@ -1,8 +1,11 @@
 super + b
-    brave-browser
+    brave
 
 super + Return
-	alacritty 
+	 kitty tmux attach
+
+super + t
+   kitty tmux
 
    	
 super + shift + Return
