@@ -9,4 +9,5 @@ dunst &
 xclip &
 volumeicon &
 nm-applet &
+numlockx on &
 sxhkd -c ~/.config/bspwm/sxhkdrc &
