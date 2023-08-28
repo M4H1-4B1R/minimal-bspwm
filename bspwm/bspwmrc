@@ -1,6 +1,7 @@
 #! /bin/sh
 
-bspc monitor -d          
+#bspc monitor -d          
+bspc monitor -d     
 
 bspc config border_width			0
 bspc config window_gap				3
@@ -36,19 +37,5 @@ bspc rule -a discord desktop='^10' follow=on
 xsetroot -cursor_name left_ptr
 
 #### Autostart ####
-dunst &
-picom &
-nitrogen --restore &
-/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
-numlockx &
-dunst &
-xclip &
-cbatticon &
-#polybar &
-#~/bin/polybar-launch &
-~/.config/bspwm/launch.sh &
-volumeicon &
-nm-applet &
-blueman-applet &
-sxhkd -c ~/.config/bspwm/sxhkdrc &
+~/.config/bspwm/autostart.sh
 
