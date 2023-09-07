@@ -3,7 +3,8 @@
 
 colors:
   primary:
-    background: "#2e3440"
+    #background: "#2e3440"
+    background: "#000000"
     foreground: "#d8dee9"
     dim_foreground: "#a5abb6"
   cursor:
@@ -19,7 +20,7 @@ colors:
     matches:
       foreground: CellBackground
       background: "#88c0d0"
-    bar:
+    footer_bar:
       background: "#434c5e"
       foreground: "#d8dee9"
   normal:
