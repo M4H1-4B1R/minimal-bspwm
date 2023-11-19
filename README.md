@@ -1,4 +1,4 @@
 # minimal-bspwm
 Bspwm dotfiles 
 
-![bspwm](https://github.com/autonomuscoder/minimal-bspwm/assets/112854891/f0b0ad10-866b-41db-a744-35075a8373d4)
+![bspwm2](https://github.com/autonomuscoder/minimal-bspwm/assets/112854891/13d8a18f-f623-4d1b-aa3a-57f00fcfc62e)
