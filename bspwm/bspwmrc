@@ -22,7 +22,7 @@ bspc config gapless_monocle			true
 #bspc config active_border_color		"#8BE9FD"
 #bspc config presel_feedback_color	"#50FA7B"
 
-bspc rule -a "*" split_dir=east
+#bspc rule -a "*" split_dir=east
 bspc rule -a qimgv state=floating center=true
 bspc rule -a Xarchiver state=floating layer=normal center=true
 bspc rule -a mpv state=floating layer=normal center=true
