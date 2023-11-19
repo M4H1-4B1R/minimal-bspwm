@@ -1,12 +1,8 @@
 super + b
-    brave
+  firefox
 
 super + Return
-	 kitty tmux attach
-
-super + t
-   kitty tmux
-
+  alacritty
    	
 super + shift + Return
 	rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
@@ -16,7 +12,7 @@ super + x
 	~/bin/power
 
 super + e 	
-	thunar 
+   pcmanfm
 	
 super + shift + c
 	galculator
