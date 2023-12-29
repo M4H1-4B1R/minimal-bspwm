@@ -2,20 +2,26 @@ super + b
   firefox
 
 super + Return
-  alacritty
+  kitty
    	
 super + shift + Return
 	rofi -modi drun -show drun -line padding 4 -hide-scrollbar -show-icons
 
 # logout, shutdown, reboot
 super + x
-	~/bin/power
+  archlinux-logout
 
 super + e 	
-   pcmanfm
+  thunar
 	
 super + shift + c
 	galculator
+
+super + r
+  redshift -O 4000
+
+super + s
+  flameshot gui
 
 
 # make sxhkd reload its configuration files:
